@@ -24,7 +24,7 @@ A .NET 8.0 Web API that provides access to Hacker News stories with caching, sea
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/HujiLLC/hackernews.backend.git
 cd HackerNews.Backend
 ```
 
@@ -199,21 +199,7 @@ dotnet test --collect:"XPlat Code Coverage"
 
 ### Azure App Service
 
-1. **Publish the application**
-```bash
-dotnet publish -c Release -o ./publish
-```
-
-2. **Deploy to Azure**
-   - Use Azure App Service deployment
-   - Configure environment variables
-   - Update CORS settings for production domain
-
-3. **Environment Variables**
-```
-ASPNETCORE_ENVIRONMENT=Production
-HackerNewsApi__CacheDurationMinutes=10
-```
+This project is already connected to the Azure.
 
 ### Docker (Optional)
 
