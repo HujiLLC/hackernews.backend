@@ -24,7 +24,7 @@ A .NET 8.0 Web API that provides access to Hacker News stories with caching, sea
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/HujiLLC/hackernews.backend.git
+git clone https://github.com/elite-dev301/hackernews.backend.git
 cd HackerNews.Backend
 ```
 
